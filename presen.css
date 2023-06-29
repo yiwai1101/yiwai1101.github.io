@@ -503,3 +503,20 @@
     left: 250px;
 
 }
+
+#playButton1 {
+    position: absolute;
+    top: 750px;
+    left: 250px;
+}
+
+#imageContair{
+    position: absolute;
+    top: 900px;
+    left: 0px;
+    width: 300px;
+    height: 200px;
+
+}
+
+

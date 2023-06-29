@@ -1,0 +1,505 @@
+
+
+#background3 {
+    position: absolute;
+    top: 30px;
+    left: 0px;
+}
+#background4 {
+    background-color: white;
+    width: 170px;
+    height: 300px;
+    position: absolute;
+    top: 120px;
+    left: 0px;
+}
+
+
+#airbag {
+    position: absolute;
+    top: 350px;
+    left: 0px;
+    width: 320px;
+    height: 200px;
+}
+
+#popuphood {
+    position: absolute;
+    top: 450px;
+    left: 200px;
+    width: 330px;
+    height: 200px;
+}
+
+#F150 {
+    position: absolute;
+    top: 370px;
+    left: 400px;
+    width: 300px;
+    height: 200px;
+}
+
+#heli {
+    position: absolute;
+    top: 450px;
+    left: 600px;
+    width: 360px;
+    height: 190px;
+}
+
+#TMC {
+    position: absolute;
+    top: 670px;
+    left: 0px;
+}
+
+.textbox {
+    font-family:'メイリオ', 'Meiryo', sans-serif;
+}
+
+#keireki {
+    color: black;
+    font-size: 27px;
+    font-weight: normal;
+    position: absolute;
+    top: 3px;
+    left: 800px;
+}
+
+#history {
+    color: black;
+    font-family: serif;
+    font-size: 25px;
+    font-weight: bold;
+    position: absolute;
+    top: 0px;
+    left: 870px;
+}
+
+#nen {
+    color: black;
+    font-size: x-large;
+    font-weight: lighter;
+    background: linear-gradient(gray,silver,silver,silver,gray);
+    text-align: left;
+    width: 960px;
+    height: 50px;
+    position: absolute;
+    top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.busyo {
+    display: flex;
+    align-items: center;
+    height: 100px;
+    color: black;
+    text-align: center;
+    font-family:'メイリオ', 'Meiryo', sans-serif;
+    line-height: 15px;
+    
+}
+
+.busyo2 {
+    color: black;
+    text-align: center;
+    font-family:'メイリオ', 'Meiryo', sans-serif;
+    font-size: x-large;
+    font-weight: bolder;
+    text-align: center;
+    line-height: 25px;
+    margin:auto;
+
+}
+
+.location {
+    color: red;
+    font-weight: bold;
+    font-size: medium;
+    font-family:'メイリオ', 'Meiryo', sans-serif;
+}
+
+.job {
+    color: blueviolet;
+    font-weight: bold;
+    font-size: medium;
+    font-family:'メイリオ', 'Meiryo', sans-serif;
+    font-weight: bold;
+    line-height: 20px;
+}
+
+.bunya {
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    font-family:'メイリオ', 'Meiryo', sans-serif;
+}
+
+
+#kensyu {
+    color: black;
+    font-size: smaller;
+    font-weight: bolder;
+    background-color: white;
+    background: linear-gradient(gray,silver,silver,silver,gray);
+    text-align: center;
+    border-radius: 25px;
+    width: 120px;
+    height: 45px;
+    position: absolute;
+    top: 115px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#location1 {
+    background-color: white;
+    position: absolute;
+    top: 157px;
+    left: 10px;
+    width: 130px;
+    height: 30px;
+}
+
+#kojo {
+    color: black;
+    font-size: smaller;
+    font-weight: bolder;
+    background: linear-gradient(gray,silver,silver,silver,gray);
+    text-align: center;
+    border-radius: 25px;
+    width: 120px;
+    height: 45px;
+    position: absolute;
+    top: 190px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#location2 {
+    background-color: white;
+    position: absolute;
+    top: 230px;
+    left: 10px;
+    width: 130px;
+    height: 30px;
+    vertical-align: middle;
+}
+
+#deler {
+    color: black;
+    font-size: smaller;
+    font-weight: bolder;
+    background: linear-gradient(gray,silver,silver,silver,gray);
+    text-align: center;
+    border-radius: 25px;
+    width: 120px;
+    height: 45px;
+    position: absolute;
+    top: 265px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#location3 {
+    background-color: white;
+    position: absolute;
+    top: 305px;
+    left: 10px;
+    width: 130px;
+    height: 30px;
+}
+
+#seinou {
+    background: linear-gradient(gray,silver,silver,silver,gray);
+    border-radius: 50px;
+    width: 320px;
+    height: 65px;
+    position: absolute;
+    top: 110px;
+    left: 140px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#haken {
+    background: linear-gradient(gray,silver,silver,silver,gray);
+    border-radius: 50px;
+    width: 170px;
+    height: 65px;
+    position: absolute;
+    top: 110px;
+    left: 470px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#syagi {
+    background: linear-gradient(gray,silver,silver,silver,gray);
+    border-radius: 50px;
+    width: 310px;
+    height: 65px;
+    position: absolute;
+    top: 110px;
+    left: 650px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#job1 {
+    position: absolute;
+    top: 250px;
+    left: 170px;
+}
+
+#job2 {
+    position: absolute;
+    top: 250px;
+    left: 320px;
+}
+
+#job3 {
+    position: absolute;
+    top: 250px;
+    left: 490px;
+}
+
+#job4 {
+    position: absolute;
+    top: 250px;
+    left: 670px;
+}
+
+#job5 {
+    position: absolute;
+    top: 250px;
+    left: 820px;
+}
+
+#location4 {
+    position: absolute;
+    top: 220px;
+    left: 170px;
+}
+
+#location5 {
+    position: absolute;
+    top: 220px;
+    left: 320px;
+}
+
+#location6 {
+    position: absolute;
+    top: 220px;
+    left: 490px;
+}
+
+#location7 {
+    position: absolute;
+    top: 220px;
+    left: 670px;
+}
+
+#location8 {
+    position: absolute;
+    top: 220px;
+    left: 820px;
+}
+
+#bunya1 {
+    position: absolute;
+    top: 190px;
+    left: 170px;
+    background-color: blueviolet;
+    width: 100px;
+    height: 25px;
+}
+
+#bunya2 {
+    position: absolute;
+    top: 190px;
+    left: 320px;
+    background-color: blueviolet;
+    width: 120px;
+    height: 25px;
+}
+
+#bunya3 {
+    position: absolute;
+    top: 190px;
+    left: 490px;
+    background-color: blueviolet;
+    width: 120px;
+    height: 25px;
+}
+
+#bunya4 {
+    position: absolute;
+    top: 190px;
+    left: 670px;
+    background-color: blueviolet;
+    width: 100px;
+    height: 25px;
+}
+
+#bunya5 {
+    position: absolute;
+    top: 190px;
+    left: 820px;
+    background-color: blueviolet;
+    width: 130px;
+    height: 25px;
+}
+
+#yajirushi1 {
+    position: absolute;
+    top: 183px;
+    left: 110px;
+    width: 0;
+    height: 0;
+    border-right: 35px solid blueviolet;
+    border-bottom: 20px solid transparent;
+    border-left: 35px solid transparent;
+    border-top: 20px solid transparent;
+}
+
+#yajirushi2 {
+    position: absolute;
+    top: 183px;
+    left: 260px;
+    width: 0;
+    height: 0;
+    border-right: 35px solid blueviolet;
+    border-bottom: 20px solid transparent;
+    border-left: 35px solid transparent;
+    border-top: 20px solid transparent;
+}
+
+#yajirushi3 {
+    position: absolute;
+    top: 183px;
+    left: 432px;
+    width: 0;
+    height: 0;
+    border-right: 35px solid blueviolet;
+    border-bottom: 20px solid transparent;
+    border-left: 35px solid transparent;
+    border-top: 20px solid transparent;
+
+}
+
+#yajirushi4 {
+    position: absolute;
+    top: 183px;
+    left: 608px;
+    width: 0;
+    height: 0;
+    border-right: 35px solid blueviolet;
+    border-bottom: 20px solid transparent;
+    border-left: 35px solid transparent;
+    border-top: 20px solid transparent;
+}
+
+#yajirushi5 {
+    position: absolute;
+    top: 183px;
+    left: 760px;
+    width: 0;
+    height: 0;
+    border-right: 35px solid blueviolet;
+    border-bottom: 20px solid transparent;
+    border-left: 35px solid transparent;
+    border-top: 20px solid transparent;
+}
+
+#yajirushi6 {
+    position: absolute;
+    top: 183px;
+    left: 940px;
+    width: 0;
+    height: 0;
+    border-right: 35px solid transparent;
+    border-bottom: 20px solid transparent;
+    border-left: 35px solid blueviolet;
+    border-top: 20px solid transparent;
+}
+
+#yajirushi7 {
+    position: absolute;
+    top: 183px;
+    left: 765px;
+    width: 0;
+    height: 0;
+    border-right: 35px solid transparent;
+    border-bottom: 20px solid transparent;
+    border-left: 35px solid blueviolet;
+    border-top: 20px solid transparent;
+}
+
+#yajirushi8 {
+    position: absolute;
+    top: 183px;
+    left: 600px;
+    width: 0;
+    height: 0;
+    border-right: 35px solid transparent;
+    border-bottom: 20px solid transparent;
+    border-left: 35px solid blueviolet;
+    border-top: 20px solid transparent;
+}
+
+#yajirushi9 {
+    position: absolute;
+    top: 183px;
+    left: 430px;
+    width: 0;
+    height: 0;
+    border-right: 35px solid transparent;
+    border-bottom: 20px solid transparent;
+    border-left: 35px solid blueviolet;
+    border-top: 20px solid transparent;
+}
+
+#yajirushi10 {
+    position: absolute;
+    top: 183px;
+    left: 260px;
+    width: 0;
+    height: 0;
+    border-right: 35px solid transparent;
+    border-bottom: 20px solid transparent;
+    border-left: 35px solid blueviolet;
+    border-top: 20px solid transparent;
+}
+
+#seikai {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: auto;
+    height: auto;
+
+}
+
+#toggleButton {
+    position: absolute;
+    top: 750px;
+    left: 0px;
+
+}
+
+#playButton1 {
+    position: absolute;
+    top: 750px;
+    left: 250px;
+
+}

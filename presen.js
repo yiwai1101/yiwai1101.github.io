@@ -35,34 +35,32 @@ toggleButton.addEventListener('click', function() {
 //     }
 //   });
 
-// const clickableImages = document.getElementsByClassName('clickable-image');
-// let currentImageIndex = 0;
+const clickableImages = document.getElementsByClassName('clickable-image');
+let currentImageIndex = 0;
 
-// // 画像がクリックされた時の処理
-// function changeImage() {
-//   // 現在の画像を非表示にする
-//   clickableImages[currentImageIndex].style.display = 'none';
+// 画像がクリックされた時の処理
+function changeImage() {
+  // 現在の画像を非表示にする
+  clickableImages[currentImageIndex].style.display = 'none';
 
-//   // インデックスを更新して次の画像を表示する
-//   currentImageIndex = (currentImageIndex + 1) % clickableImages.length;
-//   clickableImages[currentImageIndex].style.display = 'block';
-// }
+  // インデックスを更新して次の画像を表示する
+  currentImageIndex = (currentImageIndex + 1) % clickableImages.length;
+  clickableImages[currentImageIndex].style.display = 'block';
+}
 
-// // 画像にクリックイベントを追加
-// for (let i = 0; i < clickableImages.length; i++) {
-//   clickableImages[i].addEventListener('click', changeImage);
-// }
+// 画像にクリックイベントを追加
+for (let i = 0; i < clickableImages.length; i++) {
+  clickableImages[i].addEventListener('click', changeImage);
+}
 
-// // 最初の画像を表示する
-// clickableImages[currentImageIndex].style.display = 'block';
+// 最初の画像を表示する
+clickableImages[currentImageIndex].style.display = 'block';
 
-// // ボタンをクリックしたら最初の画像に戻る
-// const resetButton = document.getElementById('resetButton');
-// resetButton.addEventListener('click', function() {
-//   clickableImages[currentImageIndex].style.display = 'none'; // 現在の画像を非表示にする
-//   currentImageIndex = 0; // インデックスを初期化
-//   clickableImages[currentImageIndex].style.display = 'block'; // 最初の画像を表示する
-// });
-
-
+// ボタンをクリックしたら最初の画像に戻る
+const resetButton = document.getElementById('resetButton');
+resetButton.addEventListener('click', function() {
+  clickableImages[currentImageIndex].style.display = 'none'; // 現在の画像を非表示にする
+  currentImageIndex = 0; // インデックスを初期化
+  clickableImages[currentImageIndex].style.display = 'block'; // 最初の画像を表示する
+});
 
